@@ -77,7 +77,7 @@ function Player() {
     )
 
     return (
-        <div className={`h-24 bg-gradient-to-b from-gray-900 ${color} text-xs md:text-base text-white grid grid-cols-3 px-2 md:px-8`}>
+        <div className={`h-24 bg-gradient-to-b from-gray-900 ${color} text-xs md:text-base rounded-2xl mx-4 text-white grid grid-cols-3 px-2 md:px-8`}>
             <div className="flex items-center space-x-4">
                 <img
                     className="hidden md:inline h-10 w-10"
