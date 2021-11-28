@@ -1,8 +1,13 @@
 import { getProviders, signIn } from 'next-auth/react';
+import Head from 'next/head';
 
 function Login({ providers }) {
     return (
         <div className="flex flex-col items-center bg-black min-h-screen w-full justify-center">
+            <Head>
+                <title>Spotify 2.0</title>
+                <link rel="icon" href="https://headabovemusic.com/wp-content/uploads/2017/08/Spotify-icon.png" />
+            </Head>
             <img
                 className="w-52 mb-5"
                 src="https://links.papareact.com/9xl"
